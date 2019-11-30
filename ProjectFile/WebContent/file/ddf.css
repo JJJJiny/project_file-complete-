@@ -1,0 +1,220 @@
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('/html5/common/fonts/NanumGothic.eot');
+	src: url('/html5/common/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'), url('/html5/common/fonts/NanumGothic.woff') format('woff'), url('/html5/common/fonts/NanumGothic.ttf') format('truetype');
+}
+
+* {
+	font-family: "NanumGothic", monospace !important;
+}
+
+h2 {
+	width: 90%;
+	margin: 0 auto;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+#list {
+	width: 90%;
+	height: 300px;
+	overflow-y: auto;
+	margin: 0 auto;
+	border: 15px solid #AAA;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+#list ul {
+	list-style-type: none;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#list ul li {
+	padding: 8px;
+}
+
+#list ul li:nth-child(odd) {
+	background-color: #DDD;
+}
+
+#list ul li a {
+	color: #555;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#list ul li a:hover {
+	text-decoration: underline;
+}
+
+#files {
+	border: 3px solid #AAA;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 40px;
+	_padding-top: 70px;
+	box-sizing: border-box;
+	color: gray;
+	background-color: white;
+	min-height: 150px;
+}
+
+#wastebasket {
+	border: 3px solid #AAA;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 18px;
+	_padding-top: 30px;
+	box-sizing: border-box;
+	color: gray;
+	background-color: white;
+	min-height: 50px;
+}
+
+#summary {
+	border: 2px solid #AAA;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 15px;
+	box-sizing: border-box;
+	color: black;
+	background-color: white;
+	min-height: 30px;
+}
+
+#resultList {
+	border: 2px solid #AAA;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 15px;
+	box-sizing: border-box;
+	color: black;
+	background-color: white;
+	min-height: 30px;
+}
+
+#files ul {
+	padding: 0px;
+	margin: 5px;
+}
+
+#files ul li {
+	display: inline-block;
+	width: 200px;
+	height: 180px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0 10px;
+}
+
+#files ul li .file-info {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+div.icon {
+	display: inline-block;
+	width: 88px;
+	height: 110px;
+	background-image: url(/html5/contents/drag/8/icons.jpg);
+	background-repeat: no-repeat;
+	background-size: 615px 650px;
+	margin-right: 10px;
+	border: 1px solid gray;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-position: -435px -185px;
+}
+
+div.icon.zip {
+	background-position: -30px -32px;
+}
+
+div.icon.eps {
+	background-position: -165px -32px;
+}
+
+div.icon.avi {
+	background-position: -300px -32px;
+}
+
+div.icon.dwg {
+	background-position: -435px -32px;
+}
+
+div.icon.html {
+	background-position: -30px -185px;
+}
+
+div.icon.xls {
+	background-position: -165px -185px;
+}
+
+div.icon.css {
+	background-position: -300px -185px;
+}
+
+div.icon.txt {
+	background-position: -435px -185px;
+}
+
+div.icon.jpg {
+	background-position: -30px -338px;
+}
+
+div.icon.doc {
+	background-position: -165px -338px;
+}
+
+div.icon.ppt {
+	background-position: -300px -338px;
+}
+
+div.icon.cal {
+	background-position: -435px -338px;
+}
+
+div.icon.mp4 {
+	background-position: -30px -491px;
+}
+
+div.icon.php {
+	background-position: -165px -491px;
+}
+
+div.icon.mp3 {
+	background-position: -300px -491px;
+}
+
+div.icon.gif {
+	background-position: -435px -491px;
+}
+
+#intro {
+	width: 600px !important;
+	height: 150px;
+}
+
+#intro img {
+	width: 140px;
+}
+
+input[type=button] {
+	padding: 5px 15px;
+	font-size: 15px;
+}
